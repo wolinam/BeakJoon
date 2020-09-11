@@ -5,7 +5,7 @@ using namespace std;
 int main(void) {
 
 	int num = 0; //5
-	char star[101] = { NULL }; //¹è¿­Å©±â´Â µ¥ÀÌÅÍº¸´Ù ÇÏ³ª ´õ ¸¹°Ô! ÁÖÀÇ!
+	char star[101] = { NULL }; //ë°°ì—´í¬ê¸°ëŠ” ë°ì´í„°ë³´ë‹¤ í•˜ë‚˜ ë” ë§Žê²Œ! ì£¼ì˜!
 	cin >> num;
 	int max = 2 * num - 1; //9
 	string origin;
@@ -22,7 +22,7 @@ int main(void) {
 			star[max - i] = '\0';
 			cout << star << endl;
 		}
-		else if ((max - 1) == i) { //¸¶Áö¸·¿¡ ¿£ÅÍÅ° ¾ø¾Ö·Á°í µû·Î ÀÛ¼º
+		else if ((max - 1) == i) { //ë§ˆì§€ë§‰ì— ì—”í„°í‚¤ ì—†ì• ë ¤ê³  ë”°ë¡œ ìž‘ì„±
 			cout << origin;
 		}
 		else {
