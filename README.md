@@ -1,2 +1,2 @@
 # BeakJoon
-#### C++ practice
+### C++ practice
