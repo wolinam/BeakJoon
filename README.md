@@ -2,7 +2,6 @@
 ### C++ practice
 .
 .
-.
 ### Hash
 - https://www.youtube.com/watch?v=MfhjkfocRR0
 - like python의 dictionary.
